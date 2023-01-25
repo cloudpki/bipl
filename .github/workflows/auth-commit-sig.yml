@@ -1,6 +1,6 @@
 name: Reusable Authorize Commit Signing
 
-on:
+on: [push]
 workflow_call:
     inputs:
       repository-name:

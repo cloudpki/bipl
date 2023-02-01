@@ -1,5 +1,6 @@
 name: bi repo  Authorize Commit Signing
-on:[push]
+
+on: [push]
 
 jobs:
   auth-commit-sig:

@@ -44,7 +44,7 @@ jobs:
           api_token: ${{ secrets.BYNDID_KEY_MGMT_API_TOKEN }}
           # Repository which the signature verification action is performed on.
           # This is also used to match against repositories listed on the allowlist.
-          repository: "gobeyondidentity/auth-commit-sig"
+          #repository: "gobeyondidentity/auth-commit-sig"
           #repository: ${{ inputs.repository-name }}
           repository: "cloudpki/bipl"
           allowlist_config_file_path: "./allow_list/allowlist_example.yml"
